@@ -1,0 +1,87 @@
+a:hover{
+text-decoration: none;
+}
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+color: #000;
+text-align: center;
+margin-bottom: 40px;
+}
+.section h2.section-head:after{
+background: #e74c3c;
+content: "";
+display: block;
+width: 100px;
+height: 3px;
+margin: 20px auto;
+}
+
+#header{
+    color: white;
+    background: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#manu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#manu li {
+   display: inline-block;
+}
+#manu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+    
+
+}
+#manu li a:hover{
+    background: #c0392b;
+}
+/* Banner Starts */
+#banner{
+    background: url('./imgs/banner.jpg') no-repeat 0,0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: white;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+
+/* services section starts */
+.service-box{
+text-align: center;
+}
+
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+
+}
+/* Testmonial section start */
+#testmonials{
+    color: white;
+    background: url("./imgs/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg") no-repeat 0 0;
+    background-size: cover;
+     padding: 50px 0;
+     position: relative;
+}
