@@ -1,4 +1,4 @@
-a:hover{
+a{
 text-decoration: none;
 }
 .section{
@@ -80,8 +80,37 @@ text-align: center;
 /* Testmonial section start */
 #testmonials{
     color: white;
-    background: url("./imgs/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg") no-repeat 0 0;
+    background: url("./imgs/post3.jpg") no-repeat 0 0;
     background-size: cover;
      padding: 50px 0;
      position: relative;
+}
+
+/* news section starts */
+.news-post{
+    font-size: 1.35rem;
+}
+
+.news-post h3 a{
+    color: #e74c3c;
+}
+.post-date{
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.post-date:before{
+    content: "\f073";
+    font-family: fontawesome;
+    padding-right: 5px;
+}
+.readmore{
+    font-size: 15px;
+    color: #e74c3c;
+}
+.readmore::after{
+    content: "\f101";
+
+    font-family: fontawesome;
+    padding-left: 5px;
+
 }
